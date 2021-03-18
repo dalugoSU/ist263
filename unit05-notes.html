@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Trying out CSS</title>
+        <style>
+            /*You can do multipl declaration per selector*/
+            body {
+                color:tomato;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bolder;
+                }
+            p {
+                color: teal;
+                font-size: 2em; /* Twice the default size*/
+            }
+            /* Group selectos select more than one element. Sep by comma*/
+            p, li {
+                text-align: center;
+            }
+            /* The space means we are only styling tags inside li (descendant selector)*/
+            li a {
+                color: deeppink;
+            }
+            /* id selector: #id*/
+            #firstp {
+                color: violet;
+            }
+            /* Class selector */
+            .otherthing {
+                color: palegoldenrod;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- id values must be unique -->
+        <!-- Class attribute values can be used over and over -->
+        <p id="firstp">Today is super cold! I want to eat something. I stayed up all night and want to sleep. Help.<a href="http:wwww.google.com"> Google</a></s></p>
+        <p class="otherthing">I am adding a second paragrapht to let you know I like pizza.</p>
+        <p>Adding a third paragraph to test out some of this CSS mumbo jumbo.</p>
+        <ul>
+            <li>My One list Item!<a href="http:wwww.google.com"> Google</a></li>
+        </ul>
+    </body>
+</html>
