@@ -1,0 +1,45 @@
+body {
+    background-color: #292838;
+}
+
+
+h1, h2, h3, h4 {
+    color: #F6E66D;
+}
+
+
+#firstname, #contact, #recruiter, #faculty, #student, #other, #comments, #skillstable{
+    color: #F6C195;
+}
+
+td {
+    color: #f0e6ff;
+}
+
+tr {
+    color: #F6E66D;
+}
+
+.evenrow {
+    background-color: #b5aebf;
+}
+
+p {
+    color: #D8B89F;
+}
+
+
+nav {
+    background-color: #37334A;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+nav a {
+    color: #8db8fc;
+}
+
+nav a:hover {
+    background-color: #f7f2f7;
+}
