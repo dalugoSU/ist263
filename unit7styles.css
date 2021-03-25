@@ -1,0 +1,45 @@
+h1 {
+    color: #2f7c94;
+}
+
+
+a:link {
+    color: #b539b8;
+}
+
+a:visited {
+    color: #7d2228;
+}
+
+a:hover {
+    color: #d95f1a;
+}
+
+/* hex color requires the pound sign
+pseudo selectors need a colon between selecter
+and its state */
+
+.oneoff:hover {
+    background-color: cornsilk;
+}
+
+/* You can use any selector  with pseudo selectors */
+
+body {
+    background-image: url(images/LI-In-Bug.png);
+    background-size: 200px;
+    background-color:linen;
+}
+
+/* don't forget the url and parenthesis for bg img */
+
+p {
+    background-color:cornsilk;
+    /* To calculate width: width of box + padding*2 + border*2 + margin*2 */
+    /* For our box: 300px + 40 px + 10px + 100px = 450 px */
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid #000000;
+    /* This is a combo property value, its doc'ed in css specs*/
+}
