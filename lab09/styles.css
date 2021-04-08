@@ -1,0 +1,106 @@
+body {
+    background-color: #292838;
+}
+
+
+h1, h2, h3, h4 {
+    color: #F6E66D;
+}
+
+
+#firstname, #contact, #recruiter, #faculty, #student, #other, #comments, #skillstable{
+    color: #F6C195;
+}
+
+td {
+    color: #f0e6ff;
+}
+
+tr {
+    color: #F6E66D;
+}
+
+.evenrow {
+    background-color: #b5aebf;
+}
+
+p {
+    color: #D8B89F;
+}
+
+
+nav {
+    background-color: #37334A;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+nav a {
+    color: #8db8fc;
+}
+
+nav a:hover {
+    background-color: #f7f2f7;
+}
+
+
+.mainimg {
+    border: 1px solid red;
+    margin: 10px, 10px, 10px, 10px;
+    float: left;
+}
+
+.indexmaincontent {
+    border: 1px solid green;
+}
+
+footer {
+    border: 1px solid purple;
+}
+
+footer p {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.addressection {
+    border-radius: 25px;
+    background: #3d556b;
+    padding: 20px;
+}
+
+
+.addressection img {
+    float: right;
+    margin-right: 70em;
+}
+
+
+.addressection a {
+    float: right;
+    margin-right: 70em;
+
+}
+
+
+.formsection {
+    display: flex;
+    border-radius: 1em;
+    background: #3d556b;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.formsection iframe {
+    margin-right: 30px;
+    margin-left: 5em;
+    float: left;
+}
+
+.formsection, .formsection iframe {
+    flex: 1;
+}
