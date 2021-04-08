@@ -47,17 +47,18 @@ nav a:hover {
 
 .mainimg {
     border: 1px solid red;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-    float: left;
 }
 
-.indexmaincontent {
+.indexmain {
     border: 1px solid green;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 footer {
     border: 1px solid purple;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 footer p {
@@ -84,9 +85,7 @@ footer p {
 .addressection a {
     float: right;
     margin-right: 70em;
-
 }
-
 
 .formsection {
     display: flex;
@@ -98,10 +97,28 @@ footer p {
 
 .formsection iframe {
     margin-right: 30px;
-    margin-left: 5em;
     float: left;
 }
 
 .formsection, .formsection iframe {
     flex: 1;
+}
+
+.mainimg {
+    max-width: 100%;
+}
+
+.formsection {
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 960px) {
+    .topnavigation a {
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+    .topnavigation span {
+        display: none;
+    }
 }
