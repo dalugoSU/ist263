@@ -27,6 +27,10 @@ tr {
     background-color: #9A99B8;
 }
 
+.copy2021 {
+    color: #D8B89F;
+}
+
 p {
     color: #D8B89F;
     font-size: 2.5vmin;
@@ -41,7 +45,7 @@ nav {
 
 
 nav a {
-    color: #C1BDD0;
+    color: #EAC3BD;
     text-decoration: none;
 }
 
