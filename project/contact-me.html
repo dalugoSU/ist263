@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,32 +12,36 @@
             <h1 id="contactcontactmetitle">Contact Me</h1>
         </div>
         <div class="contactformcontainer">
-            <form action='mailto:dalugo@syr.edu' method='POST' class="contactform">
+            <section class="sectionaboutmeform">
+                <main class="mainformaboutme">
+                    <form action='mailto:dalugo@syr.edu' method='POST' class="contactform">
+                        <p><strong>Your Information</strong></p>
+                        <label for="firstname">Enter your name: </label> 
+                        <input type="text" name="username" id="firstname"><br><br>
+            
+                        <label for="contact">Enter your contact: </label> 
+                        <input type="text" name="contact" id="contact"><br><br>
 
-                <p><strong>Your Information</strong></p>
-                <label for="firstname">Enter your name: </label> 
-                <input type="text" name="username" id="firstname"><br><br>
-    
-                <label for="contact">Enter your contact: </label> 
-                <input type="text" name="contact" id="contact"><br><br>
-
-                <label for="comments"><strong>Suggestions/Comments/Concerns</strong></label><br>
-                <textarea name="comments" id="comments" rows="10" cols="50">Feel Free To Comment!</textarea><br>
-    
-                <br><input type="submit" value="Send Information">
-    
-            </form>
+                        <label for="comments"><strong>Suggestions/Comments/Concerns</strong></label><br>
+                        <textarea name="comments" id="comments" rows="10" cols="50">Feel Free To Comment!</textarea><br>
+            
+                        <br><input type="submit" value="Send Information">
+                    </form>
+                </main>
+            </section>
         </div>
         <div class="footercontainer">
-            <footer id="contactfooter">
-                <nav id="contactnavigation">
-                    <a href="index.html" class="indexfooter">Main Page</a>
-                    <a href="about-me.html" class="aboutmefooter">About Me</a>
-                    <a href="my-socials.html" class="mysocialsfooter">My Socials</a>
-                    <a href="contact-me.html" class="contactmefooter">Contact Me</a>
-                    <img src="images/ischool_logo.jpg" class="ischoollogofooter" alt="footer ischool logo">
-                </nav>
-            </footer>
+            <section class="sectionfooteraboutme">
+                <footer id="contactfooter">
+                    <nav id="contactnavigation">
+                        <a href="index.html" class="indexfooter">Main Page</a>
+                        <a href="about-me.html" class="aboutmefooter">About Me</a>
+                        <a href="my-socials.html" class="mysocialsfooter">My Socials</a>
+                        <a href="contact-me.html" class="contactmefooter">Contact Me</a>
+                        <img src="images/ischool_logo.jpg" class="ischoollogofooter" alt="footer ischool logo">
+                    </nav>
+                </footer>
+            </section>
         </div>
     </body>
 </html>
