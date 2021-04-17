@@ -17,14 +17,21 @@ h1, h2, h3, h4 {
 
 td {
     color: whitesmoke;
+    padding: 1em;
 }
 
 tr {
     color: #F6E66D;
+    font-weight: bold;
 }
 
 .evenrow {
-    background-color: #9A99B8;
+    background-color: #e3ecfa;
+}
+
+.evenrow td {
+    color: #572dd6;
+    font-weight: bold;
 }
 
 .copy2021 {
