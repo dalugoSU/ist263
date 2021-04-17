@@ -119,6 +119,14 @@ footer p {
     margin: 30px;
 }
 
+.formsection p {
+    color: #572dd6;
+}
+
+.formsection #comment {
+    color: #572dd6;
+}
+
 .formsection iframe {
     margin-right: 30px;
     float: left;
