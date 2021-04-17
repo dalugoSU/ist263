@@ -10,6 +10,10 @@ h1, h2, h3, h4 {
     font-size: 5vmin;
 }
 
+.sectionaddress h2, .sectionaddress p {
+    color: #572dd6;
+}
+
 
 #firstname, #contact, #recruiter, #faculty, #student, #other, #comments, #skillstable{
     color: #F6C195;
@@ -32,6 +36,10 @@ tr {
 .evenrow td {
     color: #572dd6;
     font-weight: bold;
+}
+
+.sectionskillstable {
+    margin: 30px;
 }
 
 .copy2021 {
@@ -87,8 +95,9 @@ footer p {
 
 .addressection {
     border-radius: 25px;
-    background: #3d556b;
-    padding: 20px;
+    background: #e3ecfa;
+    padding: 30px;
+    margin: 30px;
 }
 
 
@@ -104,9 +113,10 @@ footer p {
 .formsection {
     display: flex;
     border-radius: 1em;
-    background: #3d556b;
-    padding: 20px;
+    background: #e3ecfa;
+    padding: 30px;
     margin-top: 20px;
+    margin: 30px;
 }
 
 .formsection iframe {
