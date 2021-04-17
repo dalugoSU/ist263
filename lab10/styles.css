@@ -1,0 +1,139 @@
+body {
+    background-color: #292838;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1, h2, h3, h4 {
+    color: #F6E66D;
+    font-size: 2em;
+    font-size: 5vmin;
+}
+
+
+#firstname, #contact, #recruiter, #faculty, #student, #other, #comments, #skillstable{
+    color: #F6C195;
+}
+
+td {
+    color: #f0e6ff;
+}
+
+tr {
+    color: #F6E66D;
+}
+
+.evenrow {
+    background-color: #b5aebf;
+}
+
+p {
+    color: #D8B89F;
+    font-size: 2.5vmin;
+}
+
+
+nav {
+    background-color: #37334A;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+nav a {
+    color: #8db8fc;
+}
+
+nav a:hover {
+    background-color: #f7f2f7;
+}
+
+
+.mainimg {
+    border: 1px solid red;
+}
+
+.indexmain {
+    border: 1px solid green;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+footer {
+    border: 1px solid purple;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+footer p {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.addressection {
+    border-radius: 25px;
+    background: #3d556b;
+    padding: 20px;
+}
+
+
+.addressection img {
+    float: right;
+}
+
+
+.addressection a {
+    float: right;
+}
+
+.formsection {
+    display: flex;
+    border-radius: 1em;
+    background: #3d556b;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.formsection iframe {
+    margin-right: 30px;
+    float: left;
+}
+
+.formsection, .formsection iframe {
+    flex: 1;
+}
+
+.mainimg {
+    max-width: 100%;
+}
+
+.formsection {
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 960px) {
+    .topnavigation a {
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+    .topnavigation span {
+        display: none;
+    }
+}
+
+#skipf, #skipi, #skipt {
+    position: absolute;
+    left: -999px;
+}
+/* This position based on top left of viewport and
+pushes the skip link off screen */
+#skipf:focus, #skipi:focus, #skipt:focus {
+    position: absolute;
+    left: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
