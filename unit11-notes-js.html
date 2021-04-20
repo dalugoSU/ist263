@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 Notes</title>
+        <!-- Script tag is for embedding javascript in html -->
+        <script>
+            /* function name is helloWorld Body of the function is inside the curly brackets */
+            function helloWorld() {
+                /* Alert is function. message inside quotes. Semicolon means end of expression */
+                alert('hello world');
+            }
+            function secondAlert() {
+                alert('You are leaving this site!');
+            }
+            function thirdAlert() {
+                alert('This link doesn\'t go anywhere!');
+            }
+        </script>
+    </head>
+    <body onload="helloWorld();">
+        <!-- This onload is telling our defined function to run when the body loads -->
+        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam 
+            est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius 
+            modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
+            quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
+            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+            vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        </p>
+        <!-- these links both use onclick but run different javascript functions -->
+        <a href="http://www.google.com" onclick="secondAlert();">Google</a>
+        <a href="" onclick="thirdAlert();">Another Link</a>
+    </body>
+</html>
