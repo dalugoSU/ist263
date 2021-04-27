@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 12 Notes</title>
+        <script>
+            function correct() {
+                document.getElementById("righta").innerHTML = "True < This is the right answer!";
+                /* We located the element with righta as the id value
+                innerHTML allows us to change the contents of the element */
+            }
+            function arrowChange() {
+                document.getElementById("rollover").setAttribute('src', 'https://laferger.github.io/ist263/images/arrow_over.PNG')
+                // Set attribute of img tag to another image
+            }
+            function arrowChangeBack() {
+                document.getElementById("rollover").setAttribute('src', "https://laferger.github.io/ist263/images/arrow.PNG")
+                // set attribute of img tag back to original image
+            }
+            function backgroundColor() {
+                document.getElementById("bodycolor").style.backgroundColor = document.getElementById("colorpicker").value;
+                // set page background color to the color chosen in color picker
+                // First part locates bodycolor and set to change background-color style
+                // Second part grabs value from the form element
+            }
+        </script>
+    </head>
+    <body id="bodycolor">
+        <p>JavaScript is the only programming language that runs in your web browser</p>
+        <span id="righta" onclick="correct();">True</span><br>
+        <span>False</span><br>
+
+        <img src="https://laferger.github.io/ist263/images/arrow.PNG" id="rollover" onmouseover="arrowChange();" onmouseleave="arrowChangeBack();">
+
+        <form>
+            <input type="color" id="colorpicker" onchange="backgroundColor();">
+        </form>
+
+    </body>
+</html>
