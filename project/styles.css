@@ -13,12 +13,3 @@
     text-decoration: none;
     flex-basis: 15em;
 }
-
-
-#mainnavigation img {
-    width: 350px;
-    height: 150px;
-    position: absolute;
-    right: 0px;
-    bottom: 100px;
-}
