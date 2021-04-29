@@ -10,6 +10,20 @@ body {
     background-image: url('use_images/body_bg.jpg');
 }
 
+#skiptomain {
+    position: absolute;
+    left: -999px;
+}
+/* This position based on top left of viewport and
+pushes the skip link off screen */
+#skiptomain:focus {
+    position: absolute;
+    left: 0px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+
 /* INDEX PAGE CSS */
 
 nav ul li {
@@ -84,3 +98,9 @@ nav ul li a {
     padding: 25px;
     margin-top: 50px;
 }
+
+/* MY SOCIALS CSS */
+
+
+
+/* CONTACT ME CSS */
