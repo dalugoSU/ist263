@@ -16,6 +16,10 @@ body {
     background-image: url('use_images/body_bg.jpg');
 }
 
+.clear {
+    clear: both;
+}
+
 #skiptomain {
     position: absolute;
     left: -999px;
