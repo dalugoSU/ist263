@@ -55,26 +55,6 @@ nav ul li a:hover {
     color: rgb(229, 126, 255);
 }
 
-@media only screen and (max-width: 600px) {
-    nav ul li a {padding: 5em .5em;}
-    nav .ischoollogofooter {margin-left: 2em;}
-    .mainpagewordscontainer {
-
-        float: right;
-        margin: 15em;
-    }
-    
-    .mainpagewordscontainer h1 {
-        font-family: Optima, sans-serif;
-        margin-bottom: 1em;
-    }
-
-    .column img {
-        margin-top: 8px;
-        vertical-align: middle;
-        margin-left: 4.5em;
-    }
-}
 
 .mainpagewordscontainer {
 
@@ -397,4 +377,128 @@ nav ul li a:hover {
 #lucy_img4_preview:hover {
     filter: grayscale(0);
     transform: scale(1.1);
+}
+
+
+/* Media Control */
+@media only screen and (max-width: 600px) {
+    nav ul li a {padding: 5em .5em;}
+    nav .ischoollogofooter {margin-left: 2em;}
+    .mainpagewordscontainer {
+
+        float: right;
+        margin: 15em;
+    }
+    
+    .mainpagewordscontainer h1 {
+        font-family: Optima, sans-serif;
+        margin-bottom: 1em;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        margin-left: 4.5em;
+    }
+    /* Alyssa Page */
+    .artisttopcontaineralyssa p {
+        margin-top: 0em;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+
+    #artistalyssaprofile {
+        width: 15em;
+        height: 15em;
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .mainalyssa img {
+        margin: 2em;
+        max-height: 70%;
+        max-width: 70%;
+        border-radius: 8px;            
+    }
+
+    /* Farhan's Page */
+    .artisttopcontainerfarhan p {
+        margin-top: 0em;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+
+    #artistfarhanprofile {
+        width: 15em;
+        height: 15em;
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .mainfarhan img {
+        margin: 2em;
+        max-height: 70%;
+        max-width: 70%;
+        border-radius: 8px;            
+    }
+
+    /* Lucy's Page */
+    .artisttopcontainerlucy p {
+        margin-top: 0em;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+
+    #artistlucyprofile {
+        width: 15em;
+        height: 15em;
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .mainlucy img {
+        margin: 2em;
+        max-height: 70%;
+        max-width: 70%;
+        border-radius: 8px;            
+    }
+
+    /* Ming Page */
+    .artisttopcontainerming p {
+        margin-top: 0em;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+
+    #artistmingprofile {
+        width: 20em;
+        height: 15em;
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .mainming img {
+        margin: 2em;
+        max-height: 70%;
+        max-width: 70%;
+        border-radius: 8px;            
+    }
+
+    /* About me */
+    #aboutprofileimage {
+        margin-top: 1em;
+        width: 300px;
+        height: 10em;
+        border-radius: 8px;
+        margin-left: 12em;
+    }
+    /* Socials */
+    .socialsmaincontainer img {
+        margin-top: 5em;
+        margin-left: 8em;
+        max-height: 30%;
+        max-width: 30%;
+        border-radius: 8px;
+    }
+    
 }
