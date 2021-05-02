@@ -16,9 +16,6 @@ body {
     background-image: url('use_images/body_bg.jpg');
 }
 
-.clear {
-    clear: both;
-}
 
 #skiptomain {
     position: absolute;
@@ -386,6 +383,11 @@ nav ul li a:hover {
 
 /* Media Control */
 @media only screen and (max-width: 600px) {
+    
+    .clear {
+        clear: both;
+    }
+
     nav ul li a {padding: 5em .5em;}
     nav .ischoollogofooter {margin-left: 2em;}
     .mainpagewordscontainer {
