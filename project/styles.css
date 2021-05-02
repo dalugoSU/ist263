@@ -1,4 +1,9 @@
 /* index CSS */
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
 .footercontainer {
     border-radius: 0.2em;
     background: rgb(139, 48, 48);
@@ -104,3 +109,13 @@ nav ul li a {
 
 
 /* CONTACT ME CSS */
+
+
+/* ALYSSA ARTIST PAGE  */
+
+.mainimagecontainer img {
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    border-radius: 8px;
+}
