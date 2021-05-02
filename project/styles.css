@@ -113,9 +113,35 @@ nav ul li a {
 
 /* ALYSSA ARTIST PAGE  */
 
-.mainimagecontainer img {
-    width: 300px;
-    height: 300px;
-    max-width: 100%;
+.mainalyssa img {
+    margin: 0 auto;
+    max-height: 80%;
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+/* FARHAN ARTIST PAGE */
+.mainfarhan img {
+    margin: 0 auto;
+    max-height: 80%;
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+
+/* MING ARTIST PAGE */
+.mainming img {
+    margin: 0 auto;
+    max-height: 80%;
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+
+/* LUCY ARTIST PAGE */
+.mainlucy img {
+    margin: 0 auto;
+    max-height: 80%;
+    max-width: 80%;
     border-radius: 8px;
 }
