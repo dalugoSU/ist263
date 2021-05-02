@@ -10,6 +10,7 @@
     padding: 25px;
     margin-top: 50px;
 }
+
 /* Body background */
 body {
     background-image: url('use_images/body_bg.jpg');
@@ -24,22 +25,66 @@ pushes the skip link off screen */
 #skiptomain:focus {
     position: absolute;
     left: 0px;
-    background-color: black;
     border: 1px solid black;
 }
 
 
 /* INDEX PAGE CSS */
 
+nav .ischoollogofooter {
+    max-height: 80%;
+    max-width: 80%;
+    border-radius: 8px;
+    margin-left: 17em;
+
+}
+
 nav ul li {
     float: left;
     list-style: none;
-    margin: 1.5em;
+    margin: 3em;
+    margin-right: 5em;
 }
 
 nav ul li a {
     text-decoration: none;
     color: rgb(228, 250, 207);
+}
+
+nav ul li a:hover {
+    color: rgb(229, 126, 255);
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul li a {padding: 5em .5em;}
+    nav .ischoollogofooter {margin-left: 2em;}
+    .mainpagewordscontainer {
+
+        float: right;
+        margin: 15em;
+    }
+    
+    .mainpagewordscontainer h1 {
+        font-family: Optima, sans-serif;
+        margin-bottom: 1em;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        margin-left: 4.5em;
+    }
+}
+
+.mainpagewordscontainer {
+
+    float: right;
+    margin: 15em;
+}
+
+.mainpagewordscontainer h1 {
+    font-family: Optima, sans-serif;
+    margin-bottom: 1em;
 }
 
 .row {
@@ -58,11 +103,27 @@ nav ul li a {
     vertical-align: middle;
 }
 
+.paddingtopmain {
+    margin-top: 4em;
+}
+
+.paddingbotmain {
+    margin-top: 1.5em;
+}
+
+.paddingbotcontact {
+    margin-top: 22em;
+}
+
 .mainimagecontainer img {
     width: 300px;
     height: 300px;
     max-width: 100%;
     border-radius: 8px;
+
+    transition: transform .5s, filter .4s ease-in-out;
+    filter: grayscale(50%);
+
 }
 
 
@@ -72,6 +133,15 @@ nav ul li a {
 
 /* ABOUT ME PAGE CSS */
 
+#aboutprofileimage {
+    margin-top: 1em;
+    max-height: 20%;
+    max-width: 20%;
+    border-radius: 8px;
+    margin-left: 40em;
+
+}
+
 .sectionaboutmemain {
     display: flex;
     flex-wrap: wrap;
@@ -80,68 +150,251 @@ nav ul li a {
 
 #aboutwhythissitebox #aboutwhoiambox #aboutaspirationsbox {
     display: flex;
-
 }
 
 #aboutwhythissitebox {
     border-radius: 0.2em;
-    background: rgb(161, 104, 19);
+    background: rgb(243, 220, 186);
     padding: 25px;
     margin-top: 50px;
 }
 
 #aboutwhoiambox {
     border-radius: 0.2em;
-    background: rgb(161, 104, 19);
+    background: rgb(243, 220, 186);
     padding: 25px;
     margin-top: 50px;
 }
 
 #aboutaspirationsbox {
     border-radius: 0.2em;
-    background: rgb(161, 104, 19);
+    background: rgb(243, 220, 186);
     padding: 25px;
     margin-top: 50px;
 }
 
 /* MY SOCIALS CSS */
 
+.socialstopcontainer h1 {
+    background-color: rgb(161, 104, 19);
+    margin-top: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
 
+.socialsmaincontainer {
+    background-color: rgb(243, 220, 186);
+    height: 40em;
+}
+
+.socialsspace {
+    margin-top: 0em;
+}
+
+.socialsmaincontainer img {
+    margin-top: 8em;
+    margin-left: 8em;
+    max-height: 20%;
+    max-width: 20%;
+    border-radius: 8px;
+}
 
 /* CONTACT ME CSS */
+.contacttopcontainer h1 {
+    background-color: rgb(161, 104, 19);
+    text-align: center;
+    vertical-align: middle;
+}
 
+.contactformcontainer {
+    background-color: rgb(243, 220, 186);
+}
 
 /* ALYSSA ARTIST PAGE  */
 
+.artisttopcontaineralyssa {
+    border-radius: 0.2em;
+    background: rgb(139, 48, 48);
+    padding: 3em;
+}
+
+.artisttopcontaineralyssa p {
+    margin-top: 7em;
+    margin-right: 40em;
+    margin-left: 5em;
+    float: right;
+}
+
+
 .mainalyssa img {
     margin: 0 auto;
-    max-height: 80%;
-    max-width: 80%;
+    max-height: 50%;
+    max-width: 50%;
     border-radius: 8px;
+    margin-left: 40em;
+        
 }
+
+.mainalyssa p {
+    background-color: rgb(245, 199, 130);
+    margin: 0 auto;
+    max-height: 50%;
+    max-width: 50%;
+    border-radius: 8px;
+    margin-left: 20em;
+    margin-bottom: 20em;
+        
+}
+
+#artistalyssaprofile {
+    width: 20em;
+    height: 20em;
+    max-width: 100%;
+    border-radius: 8px;
+
+}
+
+#alyssa_img5_preview:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+}
+
 
 /* FARHAN ARTIST PAGE */
+
+.artisttopcontainerfarhan {
+    border-radius: 0.2em;
+    background: rgb(139, 48, 48);
+    padding: 3em;
+}
+
+.artisttopcontainerfarhan p {
+    margin-top: 7em;
+    margin-right: 40em;
+    margin-left: 5em;
+    float: right;
+}
+
 .mainfarhan img {
     margin: 0 auto;
-    max-height: 80%;
-    max-width: 80%;
+    max-height: 50%;
+    max-width: 50%;
     border-radius: 8px;
+    margin-left: 40em;
+        
 }
 
+.mainfarhan p {
+    background-color: rgb(245, 199, 130);
+    margin: 0 auto;
+    max-height: 50%;
+    max-width: 50%;
+    border-radius: 8px;
+    margin-left: 20em;
+    margin-bottom: 20em;
+        
+}
+
+#artistfarhanprofile {
+    width: 20em;
+    height: 20em;
+    max-width: 100%;
+    border-radius: 8px;
+
+}
+
+#farhan_img3_preview:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
 
 /* MING ARTIST PAGE */
-.mainming img {
-    margin: 0 auto;
-    max-height: 80%;
-    max-width: 80%;
-    border-radius: 8px;
+
+.artisttopcontainerming {
+    border-radius: 0.2em;
+    background: rgb(139, 48, 48);
+    padding: 3em;
 }
 
+.artisttopcontainerming p {
+    margin-top: 7em;
+    margin-right: 40em;
+    float: right;
+}
+
+.mainming img {
+    margin: 0 auto;
+    max-height: 50%;
+    max-width: 50%;
+    border-radius: 8px;
+    margin-left: 40em;
+}
+
+.mainming p {
+    background-color: rgb(245, 199, 130);
+    margin: 0 auto;
+    max-height: 50%;
+    max-width: 50%;
+    border-radius: 8px;
+    margin-left: 20em;
+    margin-bottom: 20em;
+}
+
+#artistmingprofile {
+    width: 25em;
+    height: 20em;
+    max-width: 100%;
+    border-radius: 8px;
+
+}
+
+#ming_img2_preview:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
 
 /* LUCY ARTIST PAGE */
+.artisttopcontainerlucy {
+    border-radius: 0.2em;
+    background: rgb(139, 48, 48);
+    padding: 3em;
+}
+
+.artisttopcontainerlucy p {
+    margin-top: 10em;
+    margin-right: 40em;
+    margin-left: 5em;
+    float: right;
+}
+
 .mainlucy img {
     margin: 0 auto;
-    max-height: 80%;
-    max-width: 80%;
+    max-height: 50%;
+    max-width: 50%;
     border-radius: 8px;
+    margin-left: 40em;
+}
+
+.mainlucy p {
+    background-color: rgb(245, 199, 130);
+    margin: 0 auto;
+    max-height: 50%;
+    max-width: 50%;
+    border-radius: 8px;
+    margin-left: 20em;
+    margin-bottom: 20em;        
+}
+
+#artistlucyprofile {
+    width: 25em;
+    height: 25em;
+    max-width: 100%;
+    border-radius: 8px;
+
+}
+
+#lucy_img4_preview:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
 }
