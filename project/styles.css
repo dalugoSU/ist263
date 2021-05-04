@@ -125,33 +125,33 @@ nav ul li a:hover {
 
 .sectionaboutmemain {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
 }
 
-#aboutwhythissitebox #aboutwhoiambox #aboutaspirationsbox {
-    display: flex;
+.sectionaboutmemain {
+    margin-left: 5em;
+}
+
+#aboutwhythissitebox, #aboutwhoiambox, #aboutaspirationsbox {
+    margin: 90px;
+    width: 15em;
 }
 
 #aboutwhythissitebox {
     border-radius: 0.2em;
     background: rgb(243, 220, 186);
     padding: 25px;
-    margin-top: 50px;
 }
 
 #aboutwhoiambox {
     border-radius: 0.2em;
     background: rgb(243, 220, 186);
     padding: 25px;
-    margin-top: 50px;
 }
 
 #aboutaspirationsbox {
     border-radius: 0.2em;
     background: rgb(243, 220, 186);
     padding: 25px;
-    margin-top: 50px;
 }
 
 /* MY SOCIALS CSS */
@@ -505,6 +505,19 @@ nav ul li a:hover {
         max-height: 30%;
         max-width: 30%;
         border-radius: 8px;
+    }
+
+    .sectionaboutmemain {
+        display: block;
+    }
+    
+    .sectionaboutmemain {
+        margin-left: 5em;
+    }
+    
+    #aboutwhythissitebox, #aboutwhoiambox, #aboutaspirationsbox {
+        margin: 10px;
+        width: 15em;
     }
     
 }
