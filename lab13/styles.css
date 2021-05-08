@@ -1,0 +1,173 @@
+body {
+    background-color: #292838;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+h1, h2, h3, h4 {
+    color: #F6E66D;
+    font-size: 2em;
+    font-size: 5vmin;
+}
+
+.sectionaddress h2, .sectionaddress p {
+    color: #572dd6;
+}
+
+
+#firstname, #contact, #recruiter, #faculty, #student, #other, #comments, #skillstable{
+    color: #F6C195;
+}
+
+td {
+    color: whitesmoke;
+    padding: 1em;
+}
+
+tr {
+    color: #F6E66D;
+    font-weight: bold;
+}
+
+.evenrow {
+    background-color: #e3ecfa;
+}
+
+.evenrow td {
+    color: #572dd6;
+    font-weight: bold;
+}
+
+.sectionskillstable {
+    margin: 30px;
+}
+
+.copy2021 {
+    color: #D8B89F;
+}
+
+p {
+    color: #D8B89F;
+    font-size: 2.5vmin;
+}
+
+nav {
+    background-color: #e3ecfa;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+nav a {
+    color: #572dd6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #f7f2f7;
+}
+
+
+.mainimg {
+    border: 1px solid red;
+}
+
+.indexmain {
+    border: 1px solid green;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+footer {
+    border: 1px solid purple;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+footer p {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.addressection {
+    border-radius: 25px;
+    background: #e3ecfa;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+.addressection img {
+    float: right;
+}
+
+
+.addressection a {
+    float: right;
+}
+
+.formsection {
+    display: flex;
+    border-radius: 1em;
+    background: #e3ecfa;
+    padding: 30px;
+    margin-top: 20px;
+    margin: 30px;
+}
+
+.formsection p {
+    color: #572dd6;
+}
+
+.formsection #comment {
+    color: #572dd6;
+}
+
+.formsection iframe {
+    margin-right: 30px;
+    float: left;
+}
+
+.formsection, .formsection iframe {
+    flex: 1;
+}
+
+.mainimg {
+    max-width: 100%;
+}
+
+.formsection {
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 960px) {
+    .topnavigation a {
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+    .topnavigation span {
+        display: none;
+    }
+}
+
+#skipf, #skipi, #skipt {
+    position: absolute;
+    left: -999px;
+}
+/* This position based on top left of viewport and
+pushes the skip link off screen */
+#skipf:focus, #skipi:focus, #skipt:focus {
+    position: absolute;
+    left: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
