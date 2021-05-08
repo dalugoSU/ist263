@@ -386,7 +386,7 @@ nav ul li a:hover {
 }
 
 /* Media Control */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     nav ul li a {padding: 5em .5em;}
     nav .ischoollogofooter {margin-left: 2em;}
