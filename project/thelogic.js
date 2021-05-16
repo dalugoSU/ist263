@@ -37,3 +37,7 @@ function imageFour () {
       document.getElementById('mainbody').style.backgroundImage = "url('use_images/body_bg.jpg')";
   }, false);
 }
+
+function leavingPage () {
+    window.alert("You are about to leave this page")
+}
