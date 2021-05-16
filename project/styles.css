@@ -202,6 +202,7 @@ nav ul li a:hover {
 }
 
 .artisttopcontaineralyssa p {
+    color: whitesmoke;
     margin-top: 7em;
     margin-right: 20em;
     margin-left: 5em;
@@ -253,6 +254,7 @@ nav ul li a:hover {
 }
 
 .artisttopcontainerfarhan p {
+    color: whitesmoke;
     margin-top: 7em;
     margin-right: 10em;
     margin-left: 5em;
@@ -301,6 +303,7 @@ nav ul li a:hover {
 }
 
 .artisttopcontainerming p {
+    color: whitesmoke;
     margin-top: 7em;
     margin-right: 20em;
     float: right;
@@ -345,6 +348,7 @@ nav ul li a:hover {
 }
 
 .artisttopcontainerlucy p {
+    color: whitesmoke;
     margin-top: 10em;
     margin-right: 5em;
     margin-left: 5em;
@@ -388,7 +392,7 @@ nav ul li a:hover {
 }
 
 /* Media Control */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 
     nav ul li a {padding: 5em .5em;}
     nav .ischoollogofooter {margin-left: 2em;}
