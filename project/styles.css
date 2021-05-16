@@ -16,7 +16,6 @@ body {
     background-image: url('use_images/body_bg.jpg');
 }
 
-
 #skiptomain {
     position: absolute;
     left: -999px;
@@ -58,9 +57,12 @@ nav ul li a:hover {
 
 
 .mainpagewordscontainer {
+    border-radius: 0.2em;
+    background: rgb(139, 48, 48);
+    padding: 10px;
 
     float: right;
-    margin: 15em;
+    margin: 14em;
 }
 
 .mainpagewordscontainer h1 {
@@ -85,7 +87,7 @@ nav ul li a:hover {
 }
 
 .paddingtopmain {
-    margin-top: 4em;
+    margin-top: 1em;
 }
 
 .paddingbotmain {
